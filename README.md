@@ -67,7 +67,7 @@ Expose the following endpoints
 
 
 * POST /orders/order
-* You can use the following as test data
+  * You can use the following as test data
 ```
 {
    "ordamount" : 3.21,
@@ -87,11 +87,13 @@ Expose the following endpoints
 
 
 * PUT /orders/order/{ordernum}
+  * You can use the following as test data
+```
 {
    "advanceamount": 0.00,
    "orderdescription": "Best Order Ever"
 }
-
+```
 
 * DELETE /orders/order/{ordernum}
 
