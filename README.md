@@ -10,6 +10,8 @@ Part 1 of this project created the database and read endpoints. See the reposito
 
 Part 2 of this project finished the CRUD application by adding create, updating, and delete endpoints.  
 
+For seed data, please use the SeedData.java class provided in this repository.  
+
 Expose the following endpoints
 
 * POST /customers/customer - Adds a new customer including any new orders
